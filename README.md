@@ -1,99 +1,75 @@
-# IoT Smart Home Project
+# Coca-Cola Factory Machine Emulator
 
-Welcome to the IoT Smart Home project repository! This project aims to create a smart home system using Internet of Things (IoT) technologies. The system allows users to control various aspects of their home remotely, enhancing convenience, security, and energy efficiency.
+![image](https://github.com/adamK563/IOT_SMART_HOME/assets/83719998/e1be706b-3a1a-477b-bc7a-37b2f99173f5)
+
+![image](https://github.com/adamK563/IOT_SMART_HOME/assets/83719998/76977881-0f05-417a-9584-02fd59708688)
+
+
+
+The Coca-Cola Factory Machine Emulator is a project designed to simulate and monitor the filling and sealing machines/systems in a Coca-Cola factory. It provides insights into the amount of liters of cola and bottles that can be filled, and it includes a notification system to alert users when the cola levels are running low.
 
 ## Table of Contents
-- [Overview](#overview)
+
+- [Introduction](#introduction)
 - [Features](#features)
-- [Getting Started](#getting-started)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
 - [Usage](#usage)
+- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Overview
-In this project, we leverage IoT devices, sensors, and actuators to connect and control different components of a typical home. The main objective is to enable users to monitor and manage their home remotely through a user-friendly interface.
+## Introduction
+
+This project aims to enhance the efficiency of the Coca-Cola factory by emulating the filling and sealing machines/systems. By providing insights into the amount of cola that can be filled and notifying users when levels are running low, the project contributes to better management of the production process.
 
 ## Features
-- **Remote Control:** Control various home devices, such as lights, thermostats, door locks, and security systems, through a mobile application or web interface.
-- **Sensor Integration:** Utilize a range of sensors to monitor environmental factors, such as temperature, humidity, and motion, to enhance comfort and energy efficiency.
-- **Automation:** Implement automation rules and scenarios for tasks like turning on/off lights based on occupancy, adjusting thermostat settings based on weather conditions, and more.
-- **Security:** Enhance home security by integrating surveillance cameras, door/window sensors, and alarms, and receive real-time notifications on security events.
-- **Energy Management:** Monitor and optimize energy consumption by integrating smart plugs, energy meters, and providing insights on usage patterns.
 
-## Getting Started
-To get started with this project, follow these steps:
+- Emulation of filling and sealing machines/systems.
+- Calculation of the amount of liters of cola and bottles that can be filled.
+- Real-time monitoring of cola levels.
+- Notification system to alert users when cola levels are running low.
 
-1. **Clone the repository:**
+## Technologies Used
 
-```
-git clone https://github.com/your-username/iot-smart-home.git
-cd iot-smart-home
-```
+- [matplotlib](https://matplotlib.org/) - A plotting library for the Python programming language.
+- [paho-mqtt](https://www.eclipse.org/paho/index.php) - MQTT client library used for communication.
+- [PyQt5](https://riverbankcomputing.com/software/pyqt/) - Python bindings for the Qt application framework.
+- MQhive Cloud - Cloud platform used for data storage and communication.
 
-2. **Install dependencies:**
+## Installation
 
-```
-npm install
-```
-
-3. **Configure the project:**
-- Create a `.env` file based on the provided `.env.example` file and update it with your configuration details.
-- Modify the `config.js` file to adjust any specific settings for your environment.
-
-4. **Build and start the project:**
+1. Clone this repository.
 
 ```
-npm run build
-npm start
+git clone https://github.com/your-username/coca-cola-emulator.git
 ```
 
+2. Install the required dependencies using `pip`.
 
-5. **Access the application:**
-Open your web browser and visit `http://localhost:3000` to access the IoT Smart Home application.
+```
+pip install matplotlib paho-mqtt PyQt5
+```
 
 ## Usage
-Here are the basic instructions for using the IoT Smart Home application:
 
-1. **User Registration/Login:**
-- Register a new user account or log in using your existing credentials.
+1. Run the emulator application using Python.
 
-2. **Device Pairing:**
-- Follow the instructions to pair your IoT devices/sensors with the application. Refer to the device manuals for specific pairing instructions.
+```   
+python main.py
+```
 
-3. **Device Control:**
-- Use the application's interface to control and manage your paired devices. Explore different functionalities, such as turning devices on/off, adjusting settings, creating automation rules, etc.
-
-4. **Monitoring and Notifications:**
-- Monitor sensor data, view real-time camera feeds, and receive notifications/alerts for security events or automation triggers.
+2. Monitor the emulated filling and sealing machines/systems on the graphical interface.
+3. Receive notifications when cola levels are running low.
 
 ## Contributing
-Contributions to this project are welcome! If you'd like to contribute, please follow these steps:
 
-1. Fork the repository.
-
-2. Create a new branch:
-
-```
-git checkout -b feature/your-feature-name
-```
-
-3. Make your changes and commit them:
-
-```
-git commit -m "Add your commit message"
-```
-
-
-
-4. Push to the branch:
-
-```
-git push origin feature/your-feature-name
-```
-
-
-5. Open a pull request on GitHub.
+Contributions to this project are welcome! If you find any issues or want to add new features, feel free to submit a pull request.
 
 ## License
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as per the terms of the license.
 
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Feel free to customize this template to fit your project's specifics. Good luck with your Coca-Cola Factory Machine Emulator project!
