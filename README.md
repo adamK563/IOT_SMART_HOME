@@ -1,5 +1,8 @@
 # Coca-Cola Factory Machine Emulator
 
+### For the Youtube video [Click Here](https://www.youtube.com/watch?v=hcx_WNrPl1M)
+
+
 ![image](https://github.com/adamK563/IOT_SMART_HOME/assets/83719998/e1be706b-3a1a-477b-bc7a-37b2f99173f5)
 
 ![image](https://github.com/adamK563/IOT_SMART_HOME/assets/83719998/76977881-0f05-417a-9584-02fd59708688)
